@@ -5,9 +5,9 @@ import {schemaTypes} from './schemas'
 
 export default defineConfig({
   name: 'default',
-  title: 'Latest_Portfolio-Tanbir',
+  title: 'portfolio-tanbir',
 
-  projectId: 'sw90kf85',
+  projectId: 'uy3kmmej',
   dataset: 'production',
 
   plugins: [deskTool(), visionTool()],
