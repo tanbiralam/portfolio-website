@@ -16,6 +16,7 @@ const scaleVariants = {
   }
 }
 
+
 const Header = () => {
   return (
     <div className="app__header app__flex">
@@ -33,8 +34,18 @@ const Header = () => {
             </div>
           </div>
 
-          <div className="tag-cmp app__flex">
+          {/* <div className="tag-cmp app__flex">
             <p className="p-text">a programmer, a designer and an artist</p>
+          </div> */}
+          <div className="tag-cmp app__flex">
+            <p className="p-text"><span className="tag-bell">🔔</span> Available for Freelance Work</p>
+          </div>
+          <div className="tag-cmp app__flex">
+            <p className="p-text p-bio">As a full-stack developer, I am skilled in both front-end and back-end development, allowing me to create dynamic and responsive web applications. With expertise in a variety of programming languages, frameworks, and tools, I possess a versatile skill set that enables me to take on any project with confidence.</p>
+          </div>
+          <div className="btn-cmp app__flex">
+            <button className="p-text">Download CV</button>
+            <button className="p-text">Contact Now</button>
           </div>
         </div>
       </motion.div>
