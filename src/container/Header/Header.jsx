@@ -34,9 +34,7 @@ const Header = () => {
             </div>
           </div>
 
-          {/* <div className="tag-cmp app__flex">
-            <p className="p-text">a programmer, a designer and an artist</p>
-          </div> */}
+          
           <div className="tag-cmp app__flex">
             <p className="p-text"><span className="tag-bell">🔔</span> Available for Freelance Work</p>
           </div>
@@ -74,6 +72,7 @@ const Header = () => {
        {[images.react, images.javascript, images.git].map((circle, index) => (
         <div className="circle-cmp app__flex" key={`circle-${index}`}>
           <img src={circle} alt="circle" />
+          
         </div>
        ))} 
       </motion.div>
